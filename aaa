@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIFA | The Home of Football</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div id="root">
+      <div class="main-header">
+        <div class="nav-bar1 row">
+            <div class="col-8">
+
+            </div>
+          <div class="top-nav d-flex justify-content-between col-3" id="top-navbar">
+            <div class="px-3 py-1">
+              <a
+                href="#"
+                class="text-white"
+                style="font-size: 12px; font-weight: 600"
+              >
+                BUY TICKETS
+              </a>
+            </div>
+            <div class="px-3 py-1">
+              <a
+                href="#"
+                class="text-white"
+                style="font-size: 12px; font-weight: 600"
+              >
+                FIFA STORE
+              </a>
+            </div>
+            <div class="px-3 py-1">
+              <a
+                href="#"
+                class="text-white"
+                style="font-size: 12px; font-weight: 600"
+              >
+                INSIDE FIFA
+              </a>
+            </div>
+            <div class="px-3 py-1">
+              <a
+                href="#"
+                class="text-white"
+                style="font-size: 12px; font-weight: 600"
+              >
+                FIFA+
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr class="text-white">
+
+
+
+        <div class="nav-bar-main row py-3">
+          <div class="col-2 d-flex  justify-content-around align-items-center">
+            <div class="ham-div px-1">
+              <i class="bi bi-list text-white position-relative"></i>
+             
+            </div>
+            <div class="img_log ">
+                <img
+                  src="./FIFA_Logo_White_Generic.webp"
+                  class="img"
+                  alt="fifalofo"
+                />
+              </div>
+          </div>
+
+          <div class=" col-7 d-flex  justify-content-between align-items-center">
+            <a
+              href="#"
+              class="text-white d-block"
+              style="font-size: 15px; font-weight: 600"
+              >TOURNAMENTS</a
+            >
+            <a
+              href="#"
+              class="text-white d-block"
+              style="font-size: 15px; font-weight: 600"
+              >WATCH ON FIFA+</a
+            >
+            <a
+              href="#"
+              class="text-white d-block"
+              style="font-size: 15px; font-weight: 600"
+              >PLAY</a
+            >
+            <a
+              href="#"
+              class="text-white d-block"
+              style="font-size: 15px; font-weight: 600"
+            >
+              MATCH CENTRE</a
+            >
+            <a
+              href="#"
+              class="text-white d-block"
+              style="font-size: 15px; font-weight: 600"
+              >LIVE</a
+            >
+            <a
+              href="#"
+              class="text-white d-block"
+              style="font-size: 15px; font-weight: 600"
+              >SHOP</a
+            >
+            <a
+              href="#"
+              class="text-white d-block"
+              style="font-size: 15px; font-weight: 600"
+              >NEWS</a
+            >
+            <a
+              href="#"
+              class="text-white d-block"
+              style="font-size: 15px; font-weight: 600"
+              >INSIDE FIFA</a
+            >
+          </div>
+<div class="col-2">
+
+</div>
+          <div class="col-1  d-flex  justify-content-between align-items-center">
+            <i class="bi bi-search text-white mx-2 icon" id="search"></i>
+
+            <div class="globe">
+              <i class="bi bi-globe2 text-white mx-2 icon"></i>
+            </div>
+            <i class="bi bi-person text-white mx-2 icon1"></i>
+          </div>
+        </div>
+      </div>
+      <div class="row m-0 w-100">
+        <div class="col-xxl-3 col-lg-4 p-0 text-white first-left">
+          <div class="img1 w-100 d-flex flex-column justify-content-center">
+            <p class="rewind text-center">Rewind with FIFA+</p>
+            <div class="px-3">
+              <p class="p1">
+                Replays, highlights and exclusives from the biggest ever FIFA
+                Women’s World Cup™
+              </p>
+            </div>
+            <button class="watch px-5 my-4 mx-5 text-white">
+              WATCH ON FIFA+
+            </button>
+          </div>
+        </div>
+        <div class="col-xxl-9 col-lg-8 p-0">
+          <div id="carousel1" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./carousel frst img1.webp"
+                  class="d-block w-100 carousel-img"
+                  alt="..."
+                />
+                <div
+                  class="carousel-caption d-flex flex-column align-items-start mx-2 caption-div"
+                >
+                  <p class="carousel-p1">DISCOVER</p>
+                  <p class="carousel-p2">
+                    What's next for women's football on the global stage?
+                  </p>
+                  <p class="carousel-p3">
+                    After the Women's World Cup, find out what the international
+                    calendar has in store over the next 18 months.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./carousel frst img2.webp"
+                  class="d-block w-100 carousel-img"
+                  alt="..."
+                />
+                <div
+                  class="carousel-caption d-flex flex-column align-items-start mx-2 caption-div"
+                >
+                  <p class="carousel-p1">DISCOVER</p>
+                  <p class="carousel-p2">
+                    New date and streaming details for FIFA Club World Cup 2023
+                    draw
+                  </p>
+                  <p class="carousel-p3">
+                    The path to FIFA Club World Cup Saudi Arabia 2023™ glory for
+                    the seven participating teams will be laid out on Tuesday, 5
+                    September – and you can watch live with FIFA.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./carousel frst img3.webp"
+                  class="d-block w-100 carousel-img"
+                  alt="..."
+                />
+                <div
+                  class="carousel-caption d-flex flex-column align-items-start mx-2 caption-div"
+                >
+                  <p class="carousel-p1">GOAL OF THE TOURNAMENT</p>
+                  <p class="carousel-p2">
+                    Caicedo stunner wins Hyundai Goal of the Tournament
+                  </p>
+                  <p class="carousel-p3">
+                    Colombia sensation's strike against Germany has been voted
+                    as the best goal scored at the FIFA Women's World Cup
+                    Australia & New Zealand 2023.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./carousel frst img4.webp"
+                  class="d-block w-100 carousel-img"
+                  alt="..."
+                />
+                <div
+                  class="carousel-caption d-flex flex-column align-items-start mx-2 caption-div"
+                >
+                  <p class="carousel-p1">INSIDE FIFA</p>
+                  <p class="carousel-p2">
+                    Applications open for FIFA Foundation Community Programme
+                    2024
+                  </p>
+                  <p class="carousel-p3">
+                    Programme targets underprivileged children and youth around
+                    the world
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./carousel frst img5.webp"
+                  class="d-block w-100 carousel-img"
+                  alt="..."
+                />
+                <div
+                  class="carousel-caption d-flex flex-column align-items-start mx-2 caption-div"
+                >
+                  <p class="carousel-p1">DISCOVER</p>
+                  <p class="carousel-p2">
+                    Player stats: Speed, distance, dribbling, passing and more
+                  </p>
+                  <p class="carousel-p3">
+                    The most successful dribblers, passers, tacklers and
+                    creators feature, as well as the fastest players and the
+                    most distance covered.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev h-25 my-auto"
+              type="button"
+              data-bs-target="#carousel1"
+              data-bs-slide="prev"
+            >
+              <div class="icon-carsl">
+                <span
+                  class="carousel-control-prev-icon icon-span"
+                  aria-hidden="true"
+                ></span>
+              </div>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next h-25 my-auto"
+              type="button"
+              data-bs-target="#carousel1"
+              data-bs-slide="next"
+            >
+              <div class="icon-carsl">
+                <span
+                  class="carousel-control-next-icon icon-span"
+                  aria-hidden="true"
+                ></span>
+              </div>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="section-3">
+        <div class="row m-5">
+          <div class="col-7 d-flex justify-content-start">
+            <h3>LATEST NEWS</h3>
+          </div>
+          <div class="col-5 d-flex justify-content-end">
+            <a href="#" class="text-black"> SEE ALL </a>
+          </div>
+        </div>
+        <div class="row mx-5">
+          <div class="col-xl-6">
+            <img
+              src="./FIFA-Club-World-Cup-UAE-2021-Draw.webp"
+              class="club-img img-fluid"
+              alt="..."
+            />
+            <p class="s3-p1">
+              New date and streaming details for FIFA Club World Cup 2023 draw
+            </p>
+            <p class="s3-p2">
+              The path to FIFA Club World Cup Saudi Arabia 2023™ glory for the
+              seven participating teams will be laid out on Tuesday, 5 September
+              – and you can watch live with FIFA.
+            </p>
+          </div>
+          <div class="col-xl-6">
+            <div class="row gy-3">
+              <div class="col-xl-6 s3-cell">
+                <img
+                  src="./Arthur-Elias-SC-Corinthians-Women-s-head-coach.webp"
+                  class="img-fluid rounded img-news"
+                  alt="..."
+                />
+                <div
+                  class="d-flex align-items-center justify-content-between my-3"
+                >
+                  <p class="p-news m-0">
+                    Elias appointed new Brazil women coach
+                  </p>
+                  <i class="bi bi-share text-black"></i>
+                </div>
+              </div>
+              <div class="col-xl-6 s3-cell">
+                <img
+                  src="./Arthur-Elias-SC-Corinthians-Women-s-head-coach.webp"
+                  class="img-fluid rounded img-news"
+                  alt="..."
+                />
+                <div
+                  class="d-flex align-items-center justify-content-between my-3"
+                >
+                  <p class="p-news m-0">
+                    Elias appointed new Brazil women coach
+                  </p>
+                  <i class="bi bi-share text-black"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row gy-3">
+              <div class="col-xl-6 s3-cell">
+                <img
+                  src="./Arthur-Elias-SC-Corinthians-Women-s-head-coach.webp"
+                  class="img-fluid rounded img-news"
+                  alt="..."
+                />
+                <div
+                  class="d-flex align-items-center justify-content-between my-3"
+                >
+                  <p class="p-news m-0">
+                    Elias appointed new Brazil women coach
+                  </p>
+                  <i class="bi bi-share text-black"></i>
+                </div>
+              </div>
+              <div class="col-xl-6 s3-cell">
+                <img
+                  src="./Arthur-Elias-SC-Corinthians-Women-s-head-coach.webp"
+                  class="img-fluid rounded img-news"
+                  alt="..."
+                />
+                <div
+                  class="d-flex align-items-center justify-content-between my-3"
+                >
+                  <p class="p-news m-0">
+                    Elias appointed new Brazil women coach
+                  </p>
+                  <i class="bi bi-share text-black"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-6 p-5">
+        <div
+          class="sec6-cont d-flex flex-column align-items-start w-50 mx-5 justify-content-between"
+        >
+          <img
+            src="./FIFA-Store-Logo-13_03_23.png"
+            width="130px"
+            height="30px"
+            alt=""
+          />
+          <h2 class="text-white">FIFA Store</h2>
+          <p class="text-white">
+            Explore our new home for everything associated with FIFA Classics.
+            Here you can find apparel from some of the most beloved World Cups
+            of all time. Embroided FIFA Classic clothing ranges with t-shirts,
+            jackets,
+          </p>
+          <button class="p-2 shop text-white">SHOP NOW</button>
+        </div>
+      </div>
+      <div class="row ms-4 m-0 p-0 sec8 me-4">
+        <div class="col-7 d-flex justify-content-start my-4">
+          EXPERIENCE FIFA'S TOURNAMENTS
+        </div>
+        <div class="col-5 d-flex justify-content-end my-4">SEE ALL</div>
+        <div class="col-6">
+          <img
+            src="./FPS_FWC26_Ticketing-Thumb_PostLaunch-2.webp "
+            class="rounded"
+            alt=""
+          />
+        </div>
+        <div class="col-6">
+          <img
+            src="./FPS_OlympicParis24-Tickets_Thumb.webp "
+            class="rounded"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
